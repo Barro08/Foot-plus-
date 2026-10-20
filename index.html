@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FOOT+ | Le football premium</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#090909;color:white;font-family:Arial,sans-serif}
+header{padding:22px 18px;border-bottom:1px solid #3b3015;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:28px;font-weight:900;letter-spacing:2px}
+.logo span,.gold{color:#d8b45a}
+.badge{font-size:10px;color:#d8b45a;border:1px solid #d8b45a;padding:5px 8px;border-radius:20px}
+.hero{padding:38px 20px;background:linear-gradient(145deg,#211b0c,#090909 70%);min-height:280px}
+.tag{color:#d8b45a;font-size:12px;letter-spacing:3px}
+h1{font-size:38px;line-height:1.1;margin:15px 0}
+p{color:#b9b9b9;line-height:1.6}
+.btn{display:inline-block;background:#d8b45a;color:#111;padding:13px 18px;border:0;border-radius:6px;font-weight:bold;text-decoration:none}
+section{padding:24px 18px}
+h2{font-size:21px}
+.match{background:#171717;border:1px solid #302819;border-radius:12px;padding:17px;margin:12px 0}
+.league{font-size:11px;color:#d8b45a;text-transform:uppercase;letter-spacing:1px}
+.teams{display:flex;align-items:center;justify-content:space-between;margin:18px 0;font-weight:bold;gap:8px}
+.vs{color:#d8b45a;font-size:12px}
+.note{font-size:12px;color:#999}
+.price{font-size:35px;font-weight:bold;color:#d8b45a}
+nav{position:sticky;bottom:0;background:#111;border-top:1px solid #332a18;display:flex;justify-content:space-around;padding:14px 2px}
+nav button{background:none;border:0;color:#ccc;font-size:12px;padding:6px}
+nav button:focus{color:#d8b45a}
+footer{text-align:center;padding:25px;color:#777;font-size:12px}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">FOOT<span>+</span></div>
+  <div class="badge">ÉDITION PREMIUM</div>
+</header>
+
+<div class="hero">
+  <div class="tag">LE FOOTBALL, AUTREMENT</div>
+  <h1>La passion du foot.<br><span class="gold">Sans limites.</span></h1>
+  <p>Les grands championnats, les clubs mythiques et le football africain réunis dans un seul projet.</p>
+  <a class="btn" href="#matchs">Découvrir les matchs</a>
+</div>
+
+<section id="matchs">
+  <div class="tag">AU PROGRAMME</div>
+  <h2>Les matchs à suivre ⚽</h2>
+  <div class="match">
+    <div class="league">Premier League · Exemple</div>
+    <div class="teams"><span>Arsenal</span><span class="vs">VS</span><span>Chelsea</span></div>
+    <div class="note">Affiche illustrative · Aucun direct disponible</div>
+  </div>
+  <div class="match">
+    <div class="league">Liga · Exemple</div>
+    <div class="teams"><span>Real Madrid</span><span class="vs">VS</span><span>Barça</span></div>
+    <div class="note">Affiche illustrative · Aucun direct disponible</div>
+  </div>
+  <div class="match">
+    <div class="league">Football africain</div>
+    <div class="teams"><span>Sénégal</span><span class="vs">VS</span><span>Afrique</span></div>
+    <div class="note">Exemple de rubrique · Programme à venir</div>
+  </div>
+</section>
+
+<section id="abonnement">
+  <div class="tag">L'OFFRE ENVISAGÉE</div>
+  <h2>FOOT+ Premium</h2>
+  <div class="match">
+    <div class="price">650 FCFA <span style="font-size:14px;color:#aaa">/ mois</span></div>
+    <p>Prix conceptuel de lancement, non commercialisé.</p>
+    <p>✓ Actualités et programme football<br>✓ Interface premium<br>✓ Projet de paiement Wave et Orange Money</p>
+    <a class="btn" href="#infos">Découvrir le projet</a>
+  </div>
+  <p class="note">Les paiements et les retransmissions ne sont pas encore activés. Les droits de diffusion et les solutions de paiement doivent être obtenus avant tout lancement commercial.</p>
+</section>
+
+<section id="infos">
+  <div class="tag">NOTRE AMBITION</div>
+  <h2>Le football au cœur du Sénégal 🇸🇳</h2>
+  <p>FOOT+ est un projet en construction qui ambitionne de réunir les passionnés de football autour d'une expérience moderne et élégante.</p>
+</section>
+
+<nav>
+  <button onclick="location.href='#'">⌂ Accueil</button>
+  <button onclick="location.href='#matchs'">⚽ Matchs</button>
+  <button onclick="location.href='#abonnement'">♛ Offre</button>
+  <button onclick="location.href='#infos'">ⓘ Projet</button>
+</nav>
+<footer>FOOT+ © 2026 · Projet en développement</footer>
+</body>
+</html>
